@@ -7,3 +7,5 @@
 5. Once the images were accepted by the trainers team you should start working on implementing it
 6. Submit a pull request on May 5 with a `WIP` status which just shows your progress by then
 7. Submit a final pull request on May 8 (Friday) @ 9 PM which is the deadline for this assignment.
+
+[hellow](images/project-screen-shot.png)
