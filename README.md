@@ -8,4 +8,4 @@
 6. Submit a pull request on May 5 with a `WIP` status which just shows your progress by then
 7. Submit a final pull request on May 8 (Friday) @ 9 PM which is the deadline for this assignment.
 
-[](images/project-screen-shot.png)
+![](images/project-screen-shot.png)
