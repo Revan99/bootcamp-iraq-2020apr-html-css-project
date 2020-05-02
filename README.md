@@ -9,5 +9,5 @@
 7. Submit a final pull request on May 8 (Friday) @ 9 PM which is the deadline for this assignment.
 
 ![](images/project-screen-shot.png)
-# Mind-Bendr Team 
+# Mind-Benders Team 
 We give the best, cause we are the best.
