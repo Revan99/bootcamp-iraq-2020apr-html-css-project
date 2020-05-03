@@ -48,4 +48,3 @@ We will do the structure of the webpage and some of the designs.
 * Jalal Arif Jalal (Contacts)
 * Zainab Azzam (Make An Appointment)
 
-# That is all for now XD
