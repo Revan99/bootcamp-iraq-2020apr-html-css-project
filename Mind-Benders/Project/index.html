@@ -4,17 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fce07344b0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 
 
 <body>
-    <header class="my-3">
-         <nav class="navbar navbar-expand-lg navbar-light bg-white justify-content-center">
-             <div class="container">
-                <a href="#"> <img src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/23/2018/09/Logo-1-copy-9.png" alt=""></a> 
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-whight">
+            <div class="container">
+                <div><a class="navbar-brand" href="#">Navbar</a></div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="background-img">
+        <img class="img-fluid" src="./images/lady.jpg" alt="Showcase image">
+    </div>
+
+    <!-- <header class="py-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container nav-container justify-content-between">
+                <div>          
+                    <a href="#"> <img src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/23/2018/09/Logo-1-copy-9.png" alt=""></a> 
+                </div>
                 <div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -28,25 +65,58 @@
                             <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
                         </ul>
                     </div>
-                 </div>
-             </div>
+                </div>
+            </div>
             
         </nav>
             
         
-    </header>
+    </header> -->
     <main>
-        <section class="home">
-            <h1>
-                Proffesional
-            </h1>
-            <h1 class="mb-4">
-                Family Health Care
-            </h1>
-            <p class="small-p">
-                CREATE YOUR MEDICAL WEBSITE USING JEVELIN
-            </p>
-        </section >
+        <section class="home ">
+            <div class="container home__div1">
+                <h1 class="big-headers">
+                    Proffesional
+                </h1>
+                <h1 class="big-headers">
+                    Family Health Care
+                </h1>
+                <p class="small-p pt-3 pb-5">
+                    CREATE YOUR MEDICAL WEBSITE USING JEVELIN
+                </p>
+                <div>
+                    <img src="./images/home-logo.png" alt="medical logo">
+                </div>
+            </div>
+
+            <div class="row justify-content-center discription containe d-flex align-items-center px-5 ">
+                <div class="rounded col-lg-4 small-container">
+                    <h1 class="blue-headers">1-800-600-380</h1>
+                    <h4>EMERGENCY SERVICE</h4>
+                    <p class="small-p">Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis odio mattis
+                        in. Quisque dapibus aliquet dictum. Integer dapibus ullamcorper est, ac .</p>
+                    <button type="button" class="btn btn-outline-white bg-white text-dark rounded-pill btn-lg">Primary</button>
+                </div>
+                <div class="rounded col-lg-4 lage-container ">
+                    <i class="fa fa-calendar blue-headers" aria-hidden="true"></i>
+                    <h4>DO YOU WANT TO MAKE AN APPOINTMENT</h4>
+                    <p class="small-p">Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis odio mattis
+                        in. Quisque dapibus aliquet dictum. Integer dapibus ullamcorper est, ac .</p>
+                    <button type="button" class="btn btn-outline-white bg-white text-dark rounded-pill btn-lg" id="special-btn">Primary</button>
+
+                </div>
+                <div class="rounded col-lg-4 small-container">
+                    <i class="far fa-clock blue-headers"></i>
+                    <h4>OPENING HOURS</h4>
+                    <p class="small-p">
+                        Monday – Friday <br>
+                        Saturtay – Sunday
+                    </p>
+                    <button type="button" class="btn btn-outline-white  bg-white text-dark rounded-pill btn-lg">Primary</button>
+
+                </div>
+            </div>
+        </section>
         <section class="about">
 
         </section>
@@ -70,8 +140,9 @@
     </main>
     <footer>
         <div>
-<h3>Important Information</h3>
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum lacinia turpis, ut facilisis sapien lacinia eget. Cras interdum ligula elit, maximus molestie ex placerat non.</p>
+            <h3>Important Information</h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum lacinia turpis, ut
+                facilisis sapien lacinia eget. Cras interdum ligula elit, maximus molestie ex placerat non.</p>
         </div>
         <div>
             <h3>Latest News</h3>
@@ -91,12 +162,18 @@
         </div>
 
         <div class="footer-copyright text-center py-3">Copyright © 2017 JevelinTheme – Theme by Shufflehound
-          </div>
+        </div>
 
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

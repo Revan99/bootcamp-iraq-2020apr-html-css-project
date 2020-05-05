@@ -1,9 +1,71 @@
-body{
-    height: 100%;
-}
-#a{
-    height: 200%;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html,body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  /*  background-image:url(../images/lady.jpg) center center cover no-repeat fixed !important;
+    background-repeat: no-repeat;
+    background-size: cover;*/
 }
 .small-p{
-    font-size:13px
+    font-size:12px
+}
+.home{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9rem;
+    font-size:48px;
+}
+body{
+   font-family: 'Roboto', sans-serif;
+}
+.col-lg-4 h1{
+    padding-top: 87px !important;
+    padding-bottom: 40px !important;
+}
+.big-headers{
+    
+    font-size: 48px;
+}
+
+.blue-headers{
+    color:#0078AA;
+}
+.discription{
+    width: 100%;
+    height: 27.81rem;
+    margin-top: 9.4rem;
+}
+
+@media screen and (max-width:768px){
+    .collapse{
+    justify-content: flex-start !important;
+}
+    
+}
+
+.background-img{
+    position: absolute;
+    z-index: -1;
+}
+.lage-container{
+    width: 10.81rem !important;
+    height: 26.56rem !important;
+    background-color: #D4FDFE;
+}
+.small-container{
+    height: 25.18rem !important;
+    background-color: #B9F7F9;
+}
+.btn-lg:hover{
+    border: 2px solid #0078AA !important;
+    background-color:#B9F7F9 !important;
+    
+}
+#special-btn:hover{
+    border: 2px solid #0078AA !important;
+    background-color:#D4FDFE !important;
 }
