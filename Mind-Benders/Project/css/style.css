@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -7,9 +7,10 @@ html,body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-  /*  background-image:url(../images/lady.jpg) center center cover no-repeat fixed !important;
+    background-color: white;
+    background-image:url(../images/lady.jpg) center center cover no-repeat fixed !important;
     background-repeat: no-repeat;
-    background-size: cover;*/
+    background-size: cover;
 }
 .small-p{
     font-size:12px
@@ -23,7 +24,9 @@ html,body{
     margin-top: 9rem;
     font-size:48px;
 }
-
+.home__div1{
+    z-index: 2;
+}
 body{
    font-family: 'Roboto', sans-serif;
 }
@@ -54,7 +57,7 @@ body{
 
 .background-img{
     position: absolute;
-    z-index: -1;
+    z-index: 0;
 }
 .lage-container{
     width: 10.81rem !important;
@@ -231,11 +234,7 @@ float: left;
   background-color: white;
   color: black;
 }
-=======
-body{
-    background-color: white;
-    margin: 0 auto;
-}
+
 .sec3-card{
     margin-left: 3%;
    
@@ -339,4 +338,4 @@ form button{
     color: white;
     background:rgb(84, 190, 222)
   }
->>>>>>> Zainab
+
