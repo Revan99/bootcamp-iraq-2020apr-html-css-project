@@ -351,7 +351,7 @@ form button{
   }
 
 
-.help{
+.help-sec{
   padding-top: 60px;
   padding-bottom: 100px;
   background-image: url(../imgs/help-background.jpg);
@@ -360,13 +360,13 @@ form button{
   background-size: cover;
 }
 
-.help h2{
+.help-sec h2{
   font-size: 30px;
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
 
 }
-.help h6{
+.help-sec h6{
   font-size: 12px;
   font-weight: 400;
   color: #363636;
