@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
@@ -115,13 +115,7 @@ input.search-bar{
 input:focus{
     outline: none;
 }
-=======
 
-*{
-    margin: 0px;
-    padding: 0px;
-    /* box-sizing: border-box; */
-}
 .contact-address{
     height: auto !important;
     background-color: #F4F4F4;
@@ -229,12 +223,6 @@ padding:10px;
     text-align: center;
     padding-top: 150px;
 }
-
-
-
-
-
-
 @media(max-width:600px){
     .contact-address{
         height: 480px;
@@ -243,4 +231,3 @@ padding:10px;
         margin:10px ;
     }
 }
->>>>>>> Jalal
