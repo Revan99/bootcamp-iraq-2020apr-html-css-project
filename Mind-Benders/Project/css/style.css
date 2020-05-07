@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
@@ -114,3 +115,132 @@ input.search-bar{
 input:focus{
     outline: none;
 }
+=======
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+.contact-address{
+    height: auto !important;
+    background-color: #F4F4F4;
+    margin-top: -5px;
+    
+}
+.contact-address-container{
+padding:10px;
+
+}
+.contact-title{
+    font-size: 1.0.5rem;
+    font-weight: bold;
+}
+
+
+.contact-detail{
+    font-size: 12px;
+}
+
+
+.our-special-offers{
+  
+    margin-bottom: 10em;
+    background-image: url('https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/BG.jpg?id=7');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20px;
+    width:100%;
+   
+
+
+
+
+ 
+}
+.card-background{
+}
+.card-flex{
+    display: flex !important;
+    justify-content: space-around !important;
+    
+}
+
+.our-special-offers .card{
+     height: 600px;
+    width: 150px !important;
+    margin-top:80px; 
+    background-color: rgb(212, 253, 254);
+    
+    
+    
+}
+
+.card-middle{
+    width:412px !important;
+    height: 650px !important;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card-subtitle{
+    font-size: 3rem !important;
+}
+.card-body{
+    text-align: center !important;
+}
+
+.our-special-offers-card-button{
+    width: 120px;
+    height: 60px;
+    border-radius: 44%;
+    background-color: white;
+}
+
+.our-special-offers-card-button:hover{
+    background-color:rgb(212, 253, 254) ;
+    border: 1px solid   rgb(0, 120, 170);
+    transition: ease 1s ;
+}
+.card-btn-blue{
+    background-color: rgb(0, 120, 170);
+    color: white;
+}
+.card-btn-blue:hover{
+    background-color: white;
+    border:1px solid   rgb(0, 120, 170) ;
+    color: black;
+    transition: ease 1s ;
+}
+
+.our-special-offers-card{
+    list-style: none;
+    margin-top: 15% !important; 
+}
+
+.our-special-offers-card li{
+    padding: 10px !important;
+}
+.card-head{
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+
+
+
+
+@media(max-width:600px){
+    .contact-address{
+        height: 480px;
+    }
+    .contact-sub-div{
+        margin:10px ;
+    }
+}
+>>>>>>> Jalal
