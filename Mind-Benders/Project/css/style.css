@@ -109,7 +109,7 @@ footer h6{
     border-bottom:  1px solid gray;
     padding-bottom: 50px;
     margin-bottom: 25px;
-    position: relative;
+    
 }
 footer h3{
     font-size: 21px;
@@ -133,6 +133,17 @@ height: 80px;
 border-radius: 50%;
 margin-right: 20px;
 float: left;
+}
+
+.notification{
+  position: absolute;
+ background-color: #47c9e5;
+ font-size: 13px;
+ padding: 0 5px;
+border-radius: 20px;
+color: white;
+z-index: 15;
+left: 75px !important;
 }
 
 .middle {
@@ -159,6 +170,7 @@ float: left;
     height: 25px;
     margin: auto;
 }
+
 .card,
 .card-header {
   background-color: transparent !important;
