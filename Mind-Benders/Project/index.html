@@ -3,691 +3,663 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/fce07344b0.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/fce07344b0.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="./css/animate.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/animate.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
 </head>
 
 
-<body>
-    <div class="background-img fixed-top d-flex container-fluid">
-        <img src="./images/lady.jpg" alt="background" class="bg-img w-100">
-    </div>
-    <header class="fixed-top bg-white">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container container-1">
-                <div><a class="navbar-brand" href="index.html"><img src="./images/Logo.png" alt=""></a></div>
+<body id="home">
+  <div class="round-btn bg-light d-flex justify-content-center align-items-center">
+    <a href="#home" class="text-dark"><i class="fas fa-angle-up fa-3x"></i></a>
+  </div>
+  <div class="background-img fixed-top d-flex container-fluid">
+    <img src="./images/lady.jpg" alt="background" class="bg-img w-100">
+  </div>
+  <header class="fixed-top bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container container-1">
+        <div><a class="navbar-brand" href="index.html"><img src="./images/Logo.png" alt=""></a></div>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav d-flex align-items-center ft-w">
+            <li class="nav-item ">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#department">Department</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#fqa">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#contact" >Contacts</a>
+            </li>
+            <li>
+              <a class="nav-link " href="#" ><i
+                  class="fab fa-facebook-square fa-2x"></i></a>
+            </li>
+            <li>
+              <a class="nav-link " href="#" ><i
+                  class="fab fa-twitter-square fa-2x"></i></a>
+            </li>
+            <li>
+              <button class="btn btn-white text-dark text-left col-12" type="button" data-toggle="collapse"
+                data-target="#search-bar" aria-expanded="false" aria-controls="search-bar">
+                <i class="fas fa-search fa-2x "></i>
+              </button>
+            </li>
+          </ul>
+          <div class="row collapse  fixed-top " id="search-bar">
+
+            <div class="card card-body col-6 border-none">
+                <input type="text" class="ml-5 search-bar col-6" placeholder="Search...">
+            </div>
+            <div class="col-6 bg-white d-flex justify-content-end">
+                <button class="btn btn-white text-dark text-left col-12 bg-white d-flex justify-content-end"
+                    type="button" data-toggle="collapse" data-target="#search-bar" aria-expanded="false"
+                    aria-controls="search-bar">
+                    <i class="fas fa-search fa-2x mr-5"></i>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav d-flex align-items-center">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                        <li>
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i
-                                    class="fab fa-facebook-square fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i
-                                    class="fab fa-twitter-square fa-2x"></i></a>
-                        </li>
-                        <li>
-                            <button class="btn btn-white text-dark text-left col-12" type="button"
-                                data-toggle="collapse" data-target="#search-bar" aria-expanded="false"
-                                aria-controls="search-bar">
-                                <i class="fas fa-search fa-2x "></i>
-                            </button>
-                        </li>
-                    </ul>
-                    <div class="row collapse  fixed-top " id="search-bar">
-
-                        <div class="card card-body col-6 border-none">
-                            <input type="text" class="ml-5 search-bar col-6" placeholder="Search...">
-                        </div>
-                        <div class="col-6 bg-white d-flex justify-content-end">
-                            <button class="btn btn-white text-dark text-left col-12 bg-white d-flex justify-content-end"
-                                type="button" data-toggle="collapse" data-target="#search-bar" aria-expanded="false"
-                                aria-controls="search-bar">
-                                <i class="fas fa-search fa-2x mr-5"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </nav>
-    </header>
+        </div>
+        </div>
+      </div>
+    </nav>
+  </header>
 
 
-    <main>
-        <section class="home">
-            <div class="container home__div1">
-                <h1 class="big-headers">
-                    Proffesional
-                </h1>
-                <h1 class="big-headers">
-                    Family Health Care
-                </h1>
-                <p class="small-p pt-3 pb-5">
-                    CREATE YOUR MEDICAL WEBSITE USING JEVELIN
-                </p>
-                <div>
-                    <img src="./images/home-logo.png" alt="medical logo" class="img-fluid">
-                </div>
-            </div>
-            <div class="row justify-content-center discription home__container  align-items-center">
-                <div class="rounded col-lg-4  small-container p-5">
-                    <h1 class="blue-headers  ">1-800-600-380</h1>
-                    <h4 class="my-5">EMERGENCY SERVICE</h4>
-                    <p class="small-p">Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis odio
-                        mattis
-                        in. Quisque dapibus aliquet dictum. Integer dapibus ullamcorper est, ac .</p>
-                    <button type="button" class="btn btn-outline-white bg-white text-dark rounded-pill btn-lg">See
-                        More</button>
-                </div>
-                <div class="rounded col-lg-4 lage-container p-5">
-                    <i class="fa fa-calendar  blue-headers" aria-hidden="true"></i>
-                    <h4 class="my-5">DO YOU WANT TO MAKE AN APPOINTMENT</h4>
-                    <p class="small-p">Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis odio
-                        mattis
-                        in. Quisque dapibus aliquet dictum. Integer dapibus ullamcorper est, ac .</p>
-                    <button type="button"
-                        class="btn btn-outline-white bg-white text-dark rounded-pill btn-lg special-btn"
-                        id="special-btn">Book now</button>
+  <main>
+    <section class="home" >
+      <div class="container home__div1">
+        <h1 class="big-headers">
+          Proffesional
+        </h1>
+        <h1 class="big-headers">
+          Family Health Care
+        </h1>
+        <p class="small-p pt-3 pb-5">
+          CREATE YOUR MEDICAL WEBSITE USING JEVELIN
+        </p>
+        <div>
+          <img src="./images/home-logo.png" alt="medical logo" class="img-fluid">
+        </div>
+      </div>
+      <div class="row justify-content-center discription home__container  align-items-center">
+        <div class="rounded col-lg-4  small-container p-5">
+          <h1 class="blue-headers  ">1-800-600-380</h1>
+          <h4 class="my-5">EMERGENCY SERVICE</h4>
+          <p class="small-p">Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis odio
+            mattis
+            in. Quisque dapibus aliquet dictum. Integer dapibus ullamcorper est, ac .</p>
+          <button type="button" class="btn btn-outline-white bg-white text-dark rounded-pill btn-lg">See
+            More</button>
+        </div>
+        <div class="rounded col-lg-4 lage-container p-5">
+          <i class="fa fa-calendar  blue-headers" aria-hidden="true"></i>
+          <h4 class="my-5">DO YOU WANT TO MAKE AN APPOINTMENT</h4>
+          <p class="small-p">Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis odio
+            mattis
+            in. Quisque dapibus aliquet dictum. Integer dapibus ullamcorper est, ac .</p>
+          <button type="button" class="btn btn-outline-white bg-white text-dark rounded-pill btn-lg special-btn"
+            id="special-btn">Book now</button>
 
-                </div>
-                <div class="rounded col-lg-4  small-container p-5">
-                    <i class="far fa-clock blue-headers"></i>
-                    <h4 class="my-5">OPENING HOURS</h4>
-                    <p class="small-p">
-                        Monday – Friday <br>
-                        Saturtay – Sunday
-                    </p>
-                    <button type="button" class="btn btn-outline-white  bg-white text-dark rounded-pill btn-lg">Contact
-                        us</button>
+        </div>
+        <div class="rounded col-lg-4  small-container p-5">
+          <i class="far fa-clock blue-headers"></i>
+          <h4 class="my-5">OPENING HOURS</h4>
+          <p class="small-p">
+            Monday – Friday <br>
+            Saturtay – Sunday
+          </p>
+          <button type="button" class="btn btn-outline-white  bg-white text-dark rounded-pill btn-lg">Contact
+            us</button>
 
-                </div>
-            </div>
-        </section>
+        </div>
+      </div>
+    </section>
 
-        <section class="container mb-5 py-5 d-sm-block about">
-            <div class="row justify-content-between ">
-                <div class="col-md-12 col-lg-6  col-sm-12">
-                    <img class="rounded img-fluid " src="./images/laptop.png" alt="labtop image">
-                </div>
-                <div class="col-md-12  col-sm-12 col-lg-5  flex-column justify-content-center mt-5 ">
-                    <div>
-                        <h1>About Jevelin Clinic</h1>
-                        <p>PROFESSIONAL CARE</p>
-                    </div>
-                    <div>
-                        <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex,
-                            pulvinar nec finibus ut, cursus eget libero. In dictum sem non sapien condimentum
-                            aliquet.
-                            Nulla facilisi. Mauris efficitur dolor dolor, id porta nulla interdum vitae.</p>
-                    </div>
-                    <div class="row ">
-                        <button class="btn btn-light text-dark text-left col-12  btn-lg " type="button"
-                            data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
-                            aria-controls="collapseExample1">
-                            <i class="fas fa-chevron-down pr-3"></i>Medical Consulting
-                        </button>
-
-                        <div class="collapse " id="collapseExample">
-                            <div class="card card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                                squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                sapiente ea proident.
-                            </div>
-                        </div>
-                        <button class="btn btn-light text-dark d-block text-left col-12  btn-lg " type="button"
-                            data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false"
-                            aria-controls="collapseExample1">
-                            <i class="fas fa-chevron-down pr-3"></i>Laboratory Analysis
-                        </button>
-
-                        <div class="collapse " id="collapseExample1">
-                            <div class="card card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                                squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                sapiente ea proident.
-                            </div>
-                        </div>
-                        <button class="btn btn-light text-dark d-block text-left col-12 btn-lg" type="button"
-                            data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false"
-                            aria-controls="collapseExample2">
-                            <i class="fas fa-chevron-down pr-3"></i>Diagnostic Clinic
-                        </button>
-                        <div class="collapse " id="collapseExample2">
-                            <div class="card card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                                squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                sapiente ea proident.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="help-sec container-fluid my-3 ">
-            <div class="text-center py-5 mx-5 my-3">
-                <h2 class="mb-3">How can we help you</h2>
-                <h6>read more about our services</h6>
-            </div>
-            <div class="container">
-                <div class="row justify-content-around py-5 px-5 services">
-                    <div class="col-md-4 col-sm-12 col-xs-12 py-5 px-5 ">
-                        <div>
-                            <img src="./imgs/Ophthalmology.jpg" alt="Ophthalmology">
-                            <h2>Ophthalmology</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed
-                                egestas faucibus, leo sapien laoreet massa, feugia</p>
-                        </div>
-                        <div>
-                            <img src="./imgs/Laboratory.jpg" alt="Laboratory">
-                            <h2>Laboratory</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed
-                                egestas faucibus, leo sapien laoreet massa, feugia</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-12 col-xs-12 py-5 px-5">
-                        <div>
-                            <img src="./imgs/Cardiology.jpg" alt="Cardiology">
-                            <h2>Cardiology</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed
-                                egestas faucibus, leo sapien laoreet massa, feugia</p>
-                        </div>
-                        <div>
-                            <img src="./imgs/Pediatrics.jpg" alt="Pediatrics">
-                            <h2>Pediatrics</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed
-                                egestas faucibus, leo sapien laoreet massa, feugia</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-12 col-xs-12 py-5 px-5">
-                        <div>
-                            <img src="./imgs/Dentistry.jpg" alt="Dentistry">
-                            <h2>Dentistry</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed
-                                egestas faucibus, leo sapien laoreet massa, feugia</p>
-                        </div>
-                        <div>
-                            <img src="./imgs/Radiology.jpg" alt="Radiology">
-                            <h2>Radiology</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed
-                                egestas faucibus, leo sapien laoreet massa, feugia</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="sec4 ">
-            <div class=" conta">
-                <div class="row">
-                    <div class="col-md-6 about-jenna animated bounceInLeft large-padding">
-                        <h2 class="title text-left"><b>Jenna</b> Berg</h2>
-                        <p class="about-title">PROFESSIONAL DENTIST</p>
-                        <p id="p1">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                            orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum
-                            sem
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                            orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum
-                            sem non sapien condimentum aliquet. Nulla facilisi. Mauris
-                            efficitur dolor dolor, id porta nulla interdum vitae.
-                        </p>
-                        <div id="btn">
-                            <a href="#" target="_self"> View All Doctors</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="./images/jenn.jpg" class="pic" alt="jenna">
-                    </div>
-                </div>
-            </div>
-            <div class="sec5">
-                <div class="row d-flex align-items-center">
-                    <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
-                        <span>53</span>
-                        <p>Certified<br />Doctors</p>
-                    </div>
-                    <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
-                        <span>48</span>
-                        <p>Medical<br />Services</p>
-                    </div>
-                    <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
-                        <span>12</span>
-                        <p>Different<br />Affiliates</p>
-                    </div>
-                    <div class="col-md-3 d-flex flex-column justify-content-center  align-items-center">
-                        <span>96</span>
-                        <p>Offered<br />Programs</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="sec6 ">
-            <div class="container py-5 cont">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="content">
-                            <p> Ferequently Asked <br><b> Questions</b></p>
-                        </div>
-                        <div id="btn">
-                            <a href="#" target="_self"> View All </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mx-auto">
-                        <div class="accordion" id="faqExample">
-                            <div class="card">
-                                <div class="card-header p-2" id="headingOne">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link" type="button" data-toggle="collapse"
-                                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            How to make an appointment?
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                    data-parent="#faqExample">
-                                    <div class="card-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum
-                                            lacinia turpis, ut facilisis sapien lacinia eget. Cras interdum ligula elit,
-                                            maximus molestie ex placerat non. Donec nec venenatis tortor. In nibh magna,
-                                            lobortis in urna vitae, tempus ultricies ante. Duis lectus felis, blandit eu
-                                            massa sollicitudin, ornare convallis neque</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header p-2" id="headingTwo">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseTwo" aria-expanded="false"
-                                            aria-controls="collapseTwo">
-                                            what will my insurance cover for me?
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                    data-parent="#faqExample">
-                                    <div class="card-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum
-                                            lacinia turpis, ut facilisis sapien lacinia eget. Cras interdum ligula elit,
-                                            maximus molestie ex placerat non. Donec nec venenatis tortor. In nibh magna,
-                                            lobortis in urna vitae, tempus ultricies ante. Duis lectus felis, blandit eu
-                                            massa sollicitudin, ornare convallis neque</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header p-2" id="headingThree">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
-                                            Is there a parking place next to the clinic?
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                    data-parent="#faqExample">
-                                    <div class="card-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum
-                                            lacinia turpis, ut facilisis sapien lacinia eget. Cras interdum ligula elit,
-                                            maximus molestie ex placerat non. Donec nec venenatis tortor. In nibh magna,
-                                            lobortis in urna vitae, tempus ultricies ante. Duis lectus felis, blandit eu
-                                            massa sollicitudin, ornare convallis neque</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header p-2" id="headingFour">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseFour" aria-expanded="false"
-                                            aria-controls="collapseFour">
-                                            how can i make a home appointment?
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                    data-parent="#faqExample">
-                                    <div class="card-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum
-                                            lacinia turpis, ut facilisis sapien lacinia eget. Cras interdum ligula elit,
-                                            maximus molestie ex placerat non. Donec nec venenatis tortor. In nibh magna,
-                                            lobortis in urna vitae, tempus ultricies ante. Duis lectus felis, blandit eu
-                                            massa sollicitudin, ornare convallis neque</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="our-special-offers ">
-
-            <div class="card-head">
-                <h2 class="">Our Special Offer</h2>
-                <p class="">START TO BE HEALTHY TODAY</p>
-            </div>
-            <div class="container ">
-                <div class=" our-special-offers-container  row  justify-content-center   align-items-center">
-
-
-                    <div class="card  col-9 col-sm-7 col-md-4   w-75 " style="width: 100%; max-width: 440px; ">
-                        <div class="card-body">
-                            <p class="card-title">Allergy Check</p>
-                            <p class="card-subtitle mb-2 "><small>&#36;</small> <b>255</b></p>
-                            <p class="card-text">10 treatments</p>
-                            <ul class="our-special-offers-card">
-                                <li>Allergy Test</li>
-                                <li>Consultation</li>
-                                <li>Treatments</li>
-                                <li>10 Procedures</li>
-                                <li class="our-special-offers-card-X-icon">&#x2715;</li>
-                                <li>Test Results</li>
-                            </ul>
-                            <button class="our-special-offers-card-button">Get Now</button>
-                        </div>
-                    </div>
-
-                    <div class="card card-middle col-9  card col-sm-7 col-md-4  "
-                        style="width: 100%; max-width: 440px;;">
-                        <div class="card-body">
-                            <p class="card-title">Eye Checkup</p>
-                            <p class="card-subtitle mb-2 "><small>&#36;</small> <b>108</b></p>
-                            <p class="card-text">3 treatments</p>
-                            <ul class="our-special-offers-card">
-                                <li>Refraction</li>
-                                <li>Retinal Examination</li>
-                                <li>External Examination</li>
-                                <li>9 Procedures</li>
-                                <li class="our-special-offers-card-X-icon">&#x2715;</li>
-                                <li>Full Closure</li>
-                            </ul>
-                            <button class="our-special-offers-card-button card-btn-blue">Get Now</button>
-                        </div>
-                    </div>
-                    <div class="card card  col-9 col-sm-7 col-md-4  " style="width: 100%; max-width: 440px;">
-                        <div class="card-body">
-                            <p class="card-title">Dental Care</p>
-                            <p class="card-subtitle mb-2 "><small>&#36;</small> <b>320</b></p>
-                            <p class="card-text">6 treatments</p>
-                            <ul class="our-special-offers-card">
-                                <li>Gum Care</li>
-                                <li>Consultation</li>
-                                <li>Treatments</li>
-                                <li>6 Procedures</li>
-                                <li>Oral Hygiene</li>
-                                <li>Full Closure</li>
-                            </ul>
-                            <button class="our-special-offers-card-button">Get Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="contact">
-            <div class="contact-map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6441.024531728396!2d44.0254572!3d36.1784216!3m2!1i1024!2i7
-                        68!4f13.1!3m3!1m2!1s0x0%3A0xbbd454c0cd3b21a8!2sMedia%20Medical%20Center!5e0!3m2!1sen!2siq!4v1588647744225!5m2!1sen!2siq"
-                    width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0"></iframe>
-
-            </div>
-
-            <address class="contact-address">
-                <div class="container  contact-address-container ">
-                    <div class="row justify-content-center card-flex ">
-
-
-                        <div class=" contact-sub-div col-lg-3  col-sm-6 d-flex  ">
-                            <div class=" d-flex align-items-center text-success">
-                              <i class="fas fa-map-marker-alt  col-3  fa-3x"></i>
-                            </div>
-                            <div class=" col-9 pt-3">
-                                <p class="contact-title"> ADDRESS</p>
-                                <p class="contact-detail">Street number 5, Town, Country</p>
-                            </div>
-                        </div>
-
-                        <div class=" contact-sub-div col-lg-3 col-sm-6 d-flex ">
-                          <div class="d-flex align-items-center text-success">
-                            <i class="mr-1 far fa-clock col-3 fa-3x"></i>
-                          </div>
-                            <div class="col-9 align-self-center">
-                                <p class="contact-title"> WORK HOURS</p>
-                                <p class="contact-detail">Mon. – Frie. 11AM – 19PM</p>
-                            </div>
-                        </div>
-                        <div class=" contact-sub-div col-lg-3 col-sm-6 d-flex ">
-                          <div class="d-flex align-items-center text-success pr-4">
-                            <i class="mr-1 far fa-envelope fa-3x"></i>
-                          </div>  
-                            <div class="col-9 align-self-center">
-                                <p class="contact-title">E-MAIL</p>
-                                <p class="contact-detail">brandname@company.com</p>
-                            </div>
-                        </div>
-
-                        <div class=" contact-sub-div col-lg-3 col-sm-6 d-flex ">
-                          <div class="d-flex align-items-center text-success pr-4">
-                            <i class="mr-1 fas fa-phone-alt fa-3x"></i>
-                          </div>
-                            
-                            <div class="col-9 align-self-center">
-                                <p class="contact-title">TELEPHONE</p>
-                                <p class="contact-detail">(+371) 512 566 921</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </address>
-        </section>
-        <section class="sec7">
+    <section class="container mb-5 py-5 d-sm-block about" id="about">
+      <div class="row justify-content-between ">
+        <div class="col-md-12 col-lg-6  col-sm-12">
+          <img class="rounded img-fluid " src="./images/laptop.png" alt="labtop image">
+        </div>
+        <div class="col-md-12  col-sm-12 col-lg-5  flex-column justify-content-center mt-5 ">
           <div>
+            <h1>About Jevelin Clinic</h1>
+            <p>PROFESSIONAL CARE</p>
+          </div>
+          <div>
+            <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex,
+              pulvinar nec finibus ut, cursus eget libero. In dictum sem non sapien condimentum
+              aliquet.
+              Nulla facilisi. Mauris efficitur dolor dolor, id porta nulla interdum vitae.</p>
+          </div>
+          <div class="row ">
+            <button class="btn btn-light text-dark text-left col-12  btn-lg " type="button" data-toggle="collapse"
+              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample1">
+              <i class="fas fa-chevron-down pr-3"></i>Medical Consulting
+            </button>
+
+            <div class="collapse " id="collapseExample">
+              <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                sapiente ea proident.
+              </div>
+            </div>
+            <button class="btn btn-light text-dark d-block text-left col-12  btn-lg " type="button"
+              data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false"
+              aria-controls="collapseExample1">
+              <i class="fas fa-chevron-down pr-3"></i>Laboratory Analysis
+            </button>
+
+            <div class="collapse " id="collapseExample1">
+              <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                sapiente ea proident.
+              </div>
+            </div>
+            <button class="btn btn-light text-dark d-block text-left col-12 btn-lg" type="button" data-toggle="collapse"
+              data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+              <i class="fas fa-chevron-down pr-3"></i>Diagnostic Clinic
+            </button>
+            <div class="collapse " id="collapseExample2">
+              <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                sapiente ea proident.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="help-sec container-fluid my-3 " id="department">
+      <div class="text-center py-5 mx-5 my-3">
+        <h2 class="mb-3">How can we help you</h2>
+        <h6>read more about our services</h6>
+      </div>
+      <div class="container">
+        <div class="row justify-content-around py-5 px-5 services">
+          <div class="col-md-4 col-sm-12 col-xs-12 py-5 px-5 ">
             <div>
-      
-              <div class="container section11">
-      
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      
-                  <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-      
-                  </ol>
-      
-                  <div class="carousel-inner">
-      
-                    <div class="item active">
-                      <div class="sec3-card">
-                        <div class="information-div">
-                          <img
-                            src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/23/2018/09/matheus-ferrero-346656-unsplash.png">
-      
-                          <h3>Kate blossom</h3>
-                          <h4>Math Teacher</h4>
-                        </div>
-                        <label class="text-inside-information-div">
-                          <h1>99</h1>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                            the industry's standard dummy text ever since 1500s</p>
-      
-                        </label>
-                      </div>
-      
-                    </div>
-      
-                    <div class="item">
-                      <div class="sec3-card">
-                        <div class="information-div">
-                          <img
-                            src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/23/2018/09/beard-blurred-background-casual-842811.png">
-      
-                          <h1>John Doe</h1>
-                          <h4>Geology Teacher</h4>
-                        </div>
-                        <label class="text-inside-information-div">
-                          <h1>99</h1>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                            the industry's standard dummy text ever since 1500s</p>
-      
-                        </label>
-                      </div>
-      
-                    </div>
-      
+              <img src="./imgs/Ophthalmology.jpg" alt="Ophthalmology">
+              <h2>Ophthalmology</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed
+                egestas faucibus, leo sapien laoreet massa, feugia</p>
+            </div>
+            <div>
+              <img src="./imgs/Laboratory.jpg" alt="Laboratory">
+              <h2>Laboratory</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed
+                egestas faucibus, leo sapien laoreet massa, feugia</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 py-5 px-5">
+            <div>
+              <img src="./imgs/Cardiology.jpg" alt="Cardiology">
+              <h2>Cardiology</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed
+                egestas faucibus, leo sapien laoreet massa, feugia</p>
+            </div>
+            <div>
+              <img src="./imgs/Pediatrics.jpg" alt="Pediatrics">
+              <h2>Pediatrics</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed
+                egestas faucibus, leo sapien laoreet massa, feugia</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 py-5 px-5">
+            <div>
+              <img src="./imgs/Dentistry.jpg" alt="Dentistry">
+              <h2>Dentistry</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed
+                egestas faucibus, leo sapien laoreet massa, feugia</p>
+            </div>
+            <div>
+              <img src="./imgs/Radiology.jpg" alt="Radiology">
+              <h2>Radiology</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed
+                egestas faucibus, leo sapien laoreet massa, feugia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec4 " >
+      <div class=" conta">
+        <div class="row">
+          <div class="col-md-6 about-jenna animated bounceInLeft large-padding">
+            <h2 class="title text-left"><b>Jenna</b> Berg</h2>
+            <p class="about-title">PROFESSIONAL DENTIST</p>
+            <p id="p1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum
+              sem
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum
+              sem non sapien condimentum aliquet. Nulla facilisi. Mauris
+              efficitur dolor dolor, id porta nulla interdum vitae.
+            </p>
+            <div id="btn">
+              <a href="#" target="_self"> View All Doctors</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="./images/jenn.jpg" class="pic" alt="jenna">
+          </div>
+        </div>
+      </div>
+      <div class="sec5" id="fqa">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+            <span>53</span>
+            <p>Certified<br />Doctors</p>
+          </div>
+          <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+            <span>48</span>
+            <p>Medical<br />Services</p>
+          </div>
+          <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+            <span>12</span>
+            <p>Different<br />Affiliates</p>
+          </div>
+          <div class="col-md-3 d-flex flex-column justify-content-center  align-items-center">
+            <span>96</span>
+            <p>Offered<br />Programs</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec6 ">
+      <div class="container py-5 cont">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="content">
+              <p> Ferequently Asked <br><b> Questions</b></p>
+            </div>
+            <div id="btn">
+              <a href="#" target="_self"> View All </a>
+            </div>
+          </div>
+          <div class="col-md-6 mx-auto">
+            <div class="accordion" id="faqExample">
+              <div class="card">
+                <div class="card-header p-2" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                      aria-expanded="true" aria-controls="collapseOne">
+                      How to make an appointment?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqExample">
+                  <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum
+                      lacinia turpis, ut facilisis sapien lacinia eget. Cras interdum ligula elit,
+                      maximus molestie ex placerat non. Donec nec venenatis tortor. In nibh magna,
+                      lobortis in urna vitae, tempus ultricies ante. Duis lectus felis, blandit eu
+                      massa sollicitudin, ornare convallis neque</p>
                   </div>
                 </div>
-      
-                <div>
-      
-                  <form>
-                    <h1><b>MAKE AN APPOINTMENT</b></h1>
-                    <h5>AND WE WILL COME TO YOU</h5>
-                    <div class="form-class">
-                      <input type="text" placeholder="Full Name">
-                      <input type="email" placeholder="Email">
-                      <input type="number" placeholder="Phone">
-                      <input type="date">
-                      <select>
-                        <option value="opthemeology">Volvo</option>
-                        <option value="dentisy">Saab</option>
-                        <option value="laberoty">Fiat</option>
-                        <option value="audi">Audi</option>
-                      </select>
-                    </div>
-                    <button class="button">Book Now</button>
-                    
-      
-                  </form>
-      
+              </div>
+              <div class="card">
+                <div class="card-header p-2" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      what will my insurance cover for me?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqExample">
+                  <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum
+                      lacinia turpis, ut facilisis sapien lacinia eget. Cras interdum ligula elit,
+                      maximus molestie ex placerat non. Donec nec venenatis tortor. In nibh magna,
+                      lobortis in urna vitae, tempus ultricies ante. Duis lectus felis, blandit eu
+                      massa sollicitudin, ornare convallis neque</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header p-2" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Is there a parking place next to the clinic?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqExample">
+                  <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum
+                      lacinia turpis, ut facilisis sapien lacinia eget. Cras interdum ligula elit,
+                      maximus molestie ex placerat non. Donec nec venenatis tortor. In nibh magna,
+                      lobortis in urna vitae, tempus ultricies ante. Duis lectus felis, blandit eu
+                      massa sollicitudin, ornare convallis neque</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header p-2" id="headingFour">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      how can i make a home appointment?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqExample">
+                  <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum
+                      lacinia turpis, ut facilisis sapien lacinia eget. Cras interdum ligula elit,
+                      maximus molestie ex placerat non. Donec nec venenatis tortor. In nibh magna,
+                      lobortis in urna vitae, tempus ultricies ante. Duis lectus felis, blandit eu
+                      massa sollicitudin, ornare convallis neque</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-    </main>
+        </div>
+      </div>
+    </section>
+    <section class="our-special-offers ">
 
-    <footer class="mt-5 container-fluid">
+      <div class="card-head">
+        <h2 class="">Our Special Offer</h2>
+        <p class="">START TO BE HEALTHY TODAY</p>
+      </div>
+      <div class="container ">
+        <div class=" our-special-offers-container  row  justify-content-center   align-items-center">
 
-        <div class="footer-area pt-4">
-            <div class="container-fluid">
-                <div class="row justify-content-around py-5 mx-5 my-3">
-                    <div class="col-md-4 col-sm-12 col-xs-12s mb-5 footerinfo">
-                        <h3 class="text-white">Important Information</h3>
-                        <p class="greytxt lead"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-                            vestibulum lacinia turpis, ut facilisis sapien lacinia eget. Cras interdum ligula elit,
-                            maximus molestie ex placerat non.</p>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 text-white mb-5 news">
 
-                        <h3>Latest News</h3>
-                        <div class="greyborder">
-                            <div class="imgcontainer">
-                                <img src="./imgs/news.jpg" alt="Read the news" class="img">
-                                <a href="https://jevelin.shufflehound.com/medical/category/news/">
-                                    <div>
-                                        <div class="notification">0</div>
-                                        <div class="middle">
-                                            <img src="./imgs/link-128.ico" alt="link"
-                                                class="center-block img-responsive">
-                                        </div>
-                                    </div>
-                                </a>
-
-                            </div>
-
-                            <span>
-                                <a href="https://jevelin.shufflehound.com/medical/category/news/"
-                                    class="txtsize">News</a>
-                                <a href="https://jevelin.shufflehound.com/medical/category/news/">
-                                    <h6>Welcome to our new building</h6>
-                                </a>
-                            </span>
-                        </div>
-                        <div>
-                            <div class="imgcontainer">
-                                <img src="./imgs/diet.jpg" alt="Read all about diet" class="img">
-                                <a href="https://jevelin.shufflehound.com/medical/category/diet/">
-                                    <div>
-                                        <div class="notification">0</div>
-                                        <div class="middle">
-                                            <img src="./imgs/link-128.ico" alt="link"
-                                                class="center-block img-responsive">
-                                        </div>
-                                    </div>
-                                </a>
-
-                            </div>
-
-                            <span>
-                                <a href="https://jevelin.shufflehound.com/medical/category/diet/"
-                                    class="txtsize">Diet</a>
-                                <a href="https://jevelin.shufflehound.com/medical/category/diet/">
-                                    <h6> Healthier diet for better future</h6>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12 greytxt lead mb-5 footercontact">
-                        <div><i class="mr-1 far fa-map"></i>Street number 5, Town, Country</div>
-                        <div><i class="mr-1 fas fa-phone-alt"></i>(+371) 512 566 921</div>
-                        <div><i class="mr-1 far fa-envelope"></i>brandname@company.com</div>
-                        <div><i class="mr-1 far fa-clock"></i>Mon. – Frie. 11AM – 19PM</div>
-                    </div>
-
-                </div>
+          <div class="card  col-9 col-sm-7 col-md-4   w-75 " style="width: 100%; max-width: 440px; ">
+            <div class="card-body">
+              <p class="card-title">Allergy Check</p>
+              <p class="card-subtitle mb-2 "><small>&#36;</small> <b>255</b></p>
+              <p class="card-text">10 treatments</p>
+              <ul class="our-special-offers-card">
+                <li>Allergy Test</li>
+                <li>Consultation</li>
+                <li>Treatments</li>
+                <li>10 Procedures</li>
+                <li class="our-special-offers-card-X-icon">&#x2715;</li>
+                <li>Test Results</li>
+              </ul>
+              <button class="our-special-offers-card-button">Get Now</button>
             </div>
-            <div class="footer-copyright text-center py-4 text-white copyright container-fluid">Copyright © 2017
-                JevelinTheme
-                – Theme by Shufflehound
+          </div>
+
+          <div class="card card-middle col-9  card col-sm-7 col-md-4  " style="width: 100%; max-width: 440px;;">
+            <div class="card-body">
+              <p class="card-title">Eye Checkup</p>
+              <p class="card-subtitle mb-2 "><small>&#36;</small> <b>108</b></p>
+              <p class="card-text">3 treatments</p>
+              <ul class="our-special-offers-card">
+                <li>Refraction</li>
+                <li>Retinal Examination</li>
+                <li>External Examination</li>
+                <li>9 Procedures</li>
+                <li class="our-special-offers-card-X-icon">&#x2715;</li>
+                <li>Full Closure</li>
+              </ul>
+              <button class="our-special-offers-card-button card-btn-blue">Get Now</button>
+            </div>
+          </div>
+          <div class="card card  col-9 col-sm-7 col-md-4  " style="width: 100%; max-width: 440px;">
+            <div class="card-body">
+              <p class="card-title">Dental Care</p>
+              <p class="card-subtitle mb-2 "><small>&#36;</small> <b>320</b></p>
+              <p class="card-text">6 treatments</p>
+              <ul class="our-special-offers-card">
+                <li>Gum Care</li>
+                <li>Consultation</li>
+                <li>Treatments</li>
+                <li>6 Procedures</li>
+                <li>Oral Hygiene</li>
+                <li>Full Closure</li>
+              </ul>
+              <button class="our-special-offers-card-button">Get Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6441.024531728396!2d44.0254572!3d36.1784216!3m2!1i1024!2i7
+                        68!4f13.1!3m3!1m2!1s0x0%3A0xbbd454c0cd3b21a8!2sMedia%20Medical%20Center!5e0!3m2!1sen!2siq!4v1588647744225!5m2!1sen!2siq"
+          width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+
+      </div>
+
+      <address class="contact-address">
+        <div class="container  contact-address-container ">
+          <div class="row justify-content-center card-flex ">
+
+
+            <div class=" contact-sub-div col-lg-3  col-sm-6 d-flex  ">
+              <div class=" d-flex align-items-center icon-color">
+                <i class="fas fa-map-marker-alt  col-3  fa-3x"></i>
+              </div>
+              <div class=" col-9 pt-3">
+                <p class="contact-title"> ADDRESS</p>
+                <p class="contact-detail">Street number 5, Town, Country</p>
+              </div>
             </div>
 
+            <div class=" contact-sub-div col-lg-3 col-sm-6 d-flex ">
+              <div class="d-flex align-items-center icon-color">
+                <i class="mr-1 far fa-clock col-3 fa-3x"></i>
+              </div>
+              <div class="col-9 align-self-center">
+                <p class="contact-title"> WORK HOURS</p>
+                <p class="contact-detail">Mon. – Frie. 11AM – 19PM</p>
+              </div>
+            </div>
+            <div class=" contact-sub-div col-lg-3 col-sm-6 d-flex ">
+              <div class="d-flex align-items-center icon-color">
+                <i class="mr-1 far fa-envelope fa-3x"></i>
+              </div>
+              <div class="col-9 align-self-center">
+                <p class="contact-title">E-MAIL</p>
+                <p class="contact-detail">brandname@company.com</p>
+              </div>
+            </div>
+
+            <div class=" contact-sub-div col-lg-3 col-sm-6 d-flex ">
+              <div class="d-flex align-items-center icon-color">
+                <i class="mr-1 fas fa-phone-alt fa-3x"></i>
+              </div>
+
+              <div class="col-9 align-self-center">
+                <p class="contact-title">TELEPHONE</p>
+                <p class="contact-detail">(+371) 512 566 921</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </address>
+    </section>
+    <section>
+      <div>
+        <div class="sec7">
+  
+          <div class="container  section11 ">
+            <div class="sec3-card col-lg-5">
+              <div class="information-div">
+  
+                <img
+                  src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/23/2018/09/matheus-ferrero-346656-unsplash.png">
+  
+                <h3>Swan Doe</h3>
+                <h4>History Teacher</h4>
+              </div>
+              <label class="text-inside-information-div">
+                <h1>99</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+  
+              </label>
+  
+            </div>
+            <div class="sec3-card col-lg-5">
+              <div class="information-div">
+                <img
+                  src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/23/2018/09/beard-blurred-background-casual-842811.png">
+  
+                <h3>John Doe</h3>
+                <h4>Geology Teacher</h4>
+              </div>
+              <label class="text-inside-information-div">
+                <h1>99</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+  
+              </label>
+            </div>
+  
+          </div>
+          <div>
+  
+            <form>
+              <h1><b>MAKE AN APPOINTMENT</b></h1>
+              <h5>AND WE WILL COME TO YOU</h5>
+              <div class="form-class">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+                <input type="number" placeholder="Phone">
+                <input type="date">
+                <select>
+                  <option value="opthemeology">Volvo</option>
+                  <option value="dentisy">Saab</option>
+                  <option value="laberoty">Fiat</option>
+                  <option value="audi">Audi</option>
+                </select>
+              </div>
+              <button class="button">Book Now</button>
+              </select>
+  
+            </form>
+  
+          </div>
+  
+        </div>
+  
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-5 container-fluid">
+
+    <div class="footer-area pt-4">
+      <div class="container-fluid">
+        <div class="row justify-content-around py-5 mx-5 my-3">
+          <div class="col-md-4 col-sm-12 col-xs-12s mb-5 footerinfo">
+            <h3 class="text-white">Important Information</h3>
+            <p class="greytxt lead"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              vestibulum lacinia turpis, ut facilisis sapien lacinia eget. Cras interdum ligula elit,
+              maximus molestie ex placerat non.</p>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12 text-white mb-5 news">
+
+            <h3>Latest News</h3>
+            <div class="greyborder">
+              <div class="imgcontainer">
+                <img src="./imgs/news.jpg" alt="Read the news" class="img">
+                <a href="https://jevelin.shufflehound.com/medical/category/news/">
+                  <div>
+                    <div class="notification">0</div>
+                    <div class="middle">
+                      <img src="./imgs/link-128.ico" alt="link" class="center-block img-responsive">
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+
+              <span>
+                <a href="https://jevelin.shufflehound.com/medical/category/news/" class="txtsize">News</a>
+                <a href="https://jevelin.shufflehound.com/medical/category/news/">
+                  <h6>Welcome to our new building</h6>
+                </a>
+              </span>
+            </div>
+            <div>
+              <div class="imgcontainer">
+                <img src="./imgs/diet.jpg" alt="Read all about diet" class="img">
+                <a href="https://jevelin.shufflehound.com/medical/category/diet/">
+                  <div>
+                    <div class="notification">0</div>
+                    <div class="middle">
+                      <img src="./imgs/link-128.ico" alt="link" class="center-block img-responsive">
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+
+              <span>
+                <a href="https://jevelin.shufflehound.com/medical/category/diet/" class="txtsize">Diet</a>
+                <a href="https://jevelin.shufflehound.com/medical/category/diet/">
+                  <h6> Healthier diet for better future</h6>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12 greytxt lead mb-5 footercontact">
+            <div><i class="mr-1 far fa-map"></i>Street number 5, Town, Country</div>
+            <div><i class="mr-1 fas fa-phone-alt"></i>(+371) 512 566 921</div>
+            <div><i class="mr-1 far fa-envelope"></i>brandname@company.com</div>
+            <div><i class="mr-1 far fa-clock"></i>Mon. – Frie. 11AM – 19PM</div>
+          </div>
 
         </div>
+      </div>
+      <div class="footer-copyright text-center py-4 text-white copyright container-fluid">Copyright © 2017
+        JevelinTheme
+        – Theme by Shufflehound
+      </div>
 
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
 
+    </div>
+
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
