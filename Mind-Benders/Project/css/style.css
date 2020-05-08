@@ -107,13 +107,13 @@ nav{
     justify-content: center;
     width: 100% !important;
 }
-#navbarNav{
+.navbarNav{
     padding: 0px;
     background-color: black !important;
     color: white !important;
     width: 100%;
 }
-#navbarNav a{
+.navbarNav a{
     padding: 1rem 0;
     color: white !important;
     border-bottom: 1px solid white;
@@ -462,9 +462,6 @@ footer{
       }
     }
     @media (max-width: 992px) {
-     
-      #btn {
-      }
       .sec5 {
         padding-top: 80px;
       }
@@ -841,4 +838,4 @@ form{
 .icon-color:hover{
   transition: linear 0.3s;
    margin-bottom: 15px;
-}
+} 
