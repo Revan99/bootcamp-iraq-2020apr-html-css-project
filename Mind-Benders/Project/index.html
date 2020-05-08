@@ -9,8 +9,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/fce07344b0.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -19,10 +18,10 @@
 
 
 <body>
-    <div class="background-img fixed-top d-flex container-fluid border border-danger">
+    <div class="background-img fixed-top d-flex container-fluid">
         <img src="./images/lady.jpg" alt="background" class="bg-img w-100">
     </div>
-    <header class="fixed-top">
+    <header class="fixed-top bg-white">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container container-1">
                 <div><a class="navbar-brand" href="index.html"><img src="./images/Logo.png" alt=""></a></div>
@@ -81,7 +80,7 @@
 
 
     <main>
-        <section class="home border border-danger">
+        <section class="home">
             <div class="container home__div1">
                 <h1 class="big-headers">
                     Proffesional
@@ -131,7 +130,7 @@
             </div>
         </section>
 
-        <section class="container mb-5 py-5 d-sm-block about border border-danger">
+        <section class="container mb-5 py-5 d-sm-block about">
             <div class="row justify-content-between ">
                 <div class="col-md-12 col-lg-6  col-sm-12">
                     <img class="rounded img-fluid " src="./images/laptop.png" alt="labtop image">
@@ -147,8 +146,8 @@
                             aliquet.
                             Nulla facilisi. Mauris efficitur dolor dolor, id porta nulla interdum vitae.</p>
                     </div>
-                    <div class="row border border-danger">
-                        <button class="btn btn-light text-dark text-left col-12  btn-lg border " type="button"
+                    <div class="row ">
+                        <button class="btn btn-light text-dark text-left col-12  btn-lg " type="button"
                             data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
                             aria-controls="collapseExample1">
                             <i class="fas fa-chevron-down pr-3"></i>Medical Consulting
@@ -190,7 +189,7 @@
                 </div>
             </div>
         </section>
-        <section class="help-sec container-fluid my-3 border border-danger">
+        <section class="help-sec container-fluid my-3 ">
             <div class="text-center py-5 mx-5 my-3">
                 <h2 class="mb-3">How can we help you</h2>
                 <h6>read more about our services</h6>
@@ -244,7 +243,7 @@
                 </div>
             </div>
         </section>
-        <section class="sec4 border border-danger">
+        <section class="sec4 ">
             <div class=" conta">
                 <div class="row">
                     <div class="col-md-6 about-jenna animated bounceInLeft large-padding">
@@ -291,7 +290,7 @@
                 </div>
             </div>
         </section>
-        <section class="sec6 border border-danger">
+        <section class="sec6 ">
             <div class="container py-5 cont">
                 <div class="row">
                     <div class="col-md-6">
@@ -392,7 +391,7 @@
                 </div>
             </div>
         </section>
-        <section class="our-special-offers border border-danger">
+        <section class="our-special-offers ">
 
             <div class="card-head">
                 <h2 class="">Our Special Offer</h2>
@@ -455,7 +454,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact border border-danger">
+        <section class="contact">
             <div class="contact-map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6441.024531728396!2d44.0254572!3d36.1784216!3m2!1i1024!2i7
@@ -467,35 +466,44 @@
 
             <address class="contact-address">
                 <div class="container  contact-address-container ">
-                    <div class="row  justify-content-center    card-flex ">
+                    <div class="row justify-content-center card-flex ">
 
 
-                        <div class=" contact-sub-div col-lg-3  col-sm-6">
-                            <i class="fas fa-map-marker-alt  col-3"></i>
-                            <div class=" col-9">
+                        <div class=" contact-sub-div col-lg-3  col-sm-6 d-flex  ">
+                            <div class=" d-flex align-items-center text-success">
+                              <i class="fas fa-map-marker-alt  col-3  fa-3x"></i>
+                            </div>
+                            <div class=" col-9 pt-3">
                                 <p class="contact-title"> ADDRESS</p>
                                 <p class="contact-detail">Street number 5, Town, Country</p>
                             </div>
                         </div>
 
-                        <div class=" contact-sub-div col-lg-3 col-sm-6 ">
-                            <i class="mr-1 far fa-clock col-3"></i>
-                            <div class="col-9">
+                        <div class=" contact-sub-div col-lg-3 col-sm-6 d-flex ">
+                          <div class="d-flex align-items-center text-success">
+                            <i class="mr-1 far fa-clock col-3 fa-3x"></i>
+                          </div>
+                            <div class="col-9 align-self-center">
                                 <p class="contact-title"> WORK HOURS</p>
                                 <p class="contact-detail">Mon. – Frie. 11AM – 19PM</p>
                             </div>
                         </div>
-                        <div class=" contact-sub-div col-lg-2 col-sm-6 ">
-                            <i class="mr-1 far fa-envelope"></i>
-                            <div>
+                        <div class=" contact-sub-div col-lg-3 col-sm-6 d-flex ">
+                          <div class="d-flex align-items-center text-success pr-4">
+                            <i class="mr-1 far fa-envelope fa-3x"></i>
+                          </div>  
+                            <div class="col-9 align-self-center">
                                 <p class="contact-title">E-MAIL</p>
                                 <p class="contact-detail">brandname@company.com</p>
                             </div>
                         </div>
 
-                        <div class=" contact-sub-div col-lg-3 col-sm-6">
-                            <i class="mr-1 fas fa-phone-alt"></i>
-                            <div>
+                        <div class=" contact-sub-div col-lg-3 col-sm-6 d-flex ">
+                          <div class="d-flex align-items-center text-success pr-4">
+                            <i class="mr-1 fas fa-phone-alt fa-3x"></i>
+                          </div>
+                            
+                            <div class="col-9 align-self-center">
                                 <p class="contact-title">TELEPHONE</p>
                                 <p class="contact-detail">(+371) 512 566 921</p>
                             </div>

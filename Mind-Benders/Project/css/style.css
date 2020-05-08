@@ -79,7 +79,6 @@ body{
 .about{
     height: auto;
     width: 98% !important;
-    border:1px solid black !important;
     
 }
 .home__container{
@@ -513,7 +512,7 @@ footer{
   }
   .sec3-card{
       margin-left: 3%;
-  
+     
      background-image:url("https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/23/2018/09/Rounded-Rectangle-1202-copy-21.jpg") ;
      height: 550px;
      width: 360px;
@@ -523,20 +522,20 @@ footer{
       border: none ;
       -moz-user-select: none;
       color: gray;
-      border-bottom: 1px solid #E8E8E8    ;
+      border-bottom: 1px solid #E8E8E8	;
       height: 80px;
-  
-  
+      
+      
   }
   input:focus {
       outline: none;
-      border-bottom: 1px solid rgb(61, 190, 222)  ;
+      border-bottom: 1px solid rgb(61, 190, 222)	;
   
   }
   select:focus{
   
       outline: none;
-      border-bottom: 1px solid rgb(61, 190, 222)  ;
+      border-bottom: 1px solid rgb(61, 190, 222)	;
   }
   form{
       margin-right: 150px auto;
@@ -545,66 +544,66 @@ footer{
       margin-top: 0 auto;
       margin-left: 0px;
   
-  
-  
+      
+     
       padding: 10px;
       display: flex;
       justify-content: center;
       align-items: left;
       flex-direction:column;
-  
+      
   }
   
   .button {
-  
+      
       font-size: 12px;
       text-align: center;
       cursor: pointer;
       outline: none;
       color: white;
-      background-color: #3CE2AD;
+      background-color: #3ce2ad;
       border: none;
       border-radius: 25px;
       height: 50px;
       width: 100px;
       margin-top: 30px;
-  
+      
     }
-  
+    
     .button:hover {background-color: white;
   border: 1px solid rgb(84, 190, 222);
   color: rgb(84, 190, 222);}
+    
+    
   
   
   
-  
-  
-  
+   
    .section11{
        align-items: center;
-  
+      
       display: flex;
       flex-direction: row;
-  
+      
   
    }
    .information-div{
-  
+       
        display:inline-block;
        margin-left: 40%;
        margin-top: 30%;
        color: white;
-  
-  
+       
+       
    }
    .text-inside-information-div{
-  
+       
       display:flex;
       flex-direction: row;
       color: white;
   
-  
-  
+      
+      
   }
   .text-inside-information-div h1{
       font-size: 30px;
@@ -613,8 +612,8 @@ footer{
       margin-right:10px ;
   }
   .text-inside-information-div p{
-  
-  
+     
+      
       margin-left:8px ;
   }
   
@@ -622,37 +621,36 @@ footer{
       display: flex;
       flex-direction: column;
       height: 350px;
-  
+   
    }
   
-  
+   
     ::selection {
       color: white;
       background:rgb(84, 190, 222)
     }
   @media screen and (max-width:950px){
-    
-  
+      
+      
       form{
           width: 100%;
           margin-left: 0;
       }
       .section11{
-  
+      
           display: flex;
           flex-direction: column;
-  
-  
+          
+      
        }
   }
   @media screen and (max-width :470px){
-   
       .section11{
-  
+      
           display: flex;
           flex-direction: column;
-  
-  
+          
+      
        }
        .sec3-card{
           margin-bottom: 2%;
