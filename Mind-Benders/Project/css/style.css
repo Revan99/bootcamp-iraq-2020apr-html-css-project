@@ -13,6 +13,7 @@ body{
     width: 100%;
     height: auto;
     font-family: 'Montserrat', sans-serif;
+    
 }
 .small-p{
     font-size:1rem;  
@@ -28,6 +29,7 @@ body{
     margin-top: 9rem;
     font-size:48px;
 }
+
 .big-headers{
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
@@ -53,7 +55,8 @@ body{
 .background-img{
     position: absolute;
     z-index: -1;
-    width: 100% !important;
+    width: auto !important;
+    height: 50rem;
 }
 .lage-container{
     background-color: #D4FDFE;
@@ -79,26 +82,38 @@ body{
     margin: 110px auto 30px;
 }
 @media (max-width:991px){
-    #navbarNav{
-        padding: 0px;
-        background-color: black !important;
-        color: white !important;
-        width: 100%;
-    }
-    #navbarNav a{
-        padding: 1rem 0;
-        color: white !important;
-        border-bottom: 1px solid white;
-        margin: 0 3rem;
-    }
-    .disabled{
-        border: none !important;
-    }
-    .container-1{
-        display: flex;
-        justify-content: center;
-        margin: 0px;
-    }
+  header{
+    width: 100% !important;
+}
+nav{
+    display: flex;
+    position: fixed !important;
+    top: 10px !important;
+    justify-content: center;
+    width: 100% !important;
+}
+#navbarNav{
+    padding: 0px;
+    background-color: black !important;
+    color: white !important;
+    width: 100%;
+}
+#navbarNav a{
+    padding: 1rem 0;
+    color: white !important;
+    border-bottom: 1px solid white;
+    margin: 0 3rem;
+}
+.disabled{
+    border: none !important;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+}
+.navbar-ul{
+  width: 90%;
+}
 }
 .search-bar{
     height: 150px;
@@ -145,12 +160,6 @@ padding:10px;
     background-size: cover;
     background-position: 20px;
     width:100%;
-   
-
-
-
-
- 
 }
 .card-flex{
     display: flex !important;
@@ -410,8 +419,8 @@ footer{
         max-width: 100%;
         height: auto;
         margin-top: 40px;
-      }
-      .sec5 {
+      }*/
+      /* .sec5 {
         background-color: #F4F4F4;
         position: absolute;
         top: 100%;
@@ -448,4 +457,4 @@ footer{
           top: 70%;
           padding-top: 80px;
         }
-      } */
+      }  */
