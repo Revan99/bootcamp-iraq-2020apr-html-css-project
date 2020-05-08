@@ -672,7 +672,7 @@ footer{
     position: fixed;
     bottom: 40px;
     right: 40px;
-    
+    z-index: 20;
   }
   .round-btn:hover{
     background-color: rgb(102, 176, 206) !important;
