@@ -1,19 +1,50 @@
-body{
-    background-color: aliceblue;
+.item{
+    width: 450px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+
+     }
+    body{
+    background-color: white;
+    margin: 0 auto;
 }
 .sec3-card{
-   background-color: red;
+    margin-left: 3%;
+   
    background-image:url("https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/23/2018/09/Rounded-Rectangle-1202-copy-21.jpg") ;
-   height: 20rem;
-   width: 16rem;
+   height: 550px;
+   width: 360px;
 }
  form input, button ,select {
-    background-color: aliceblue;
+    background-color: white;
     border: none ;
     -moz-user-select: none;
     color: gray;
+    border-bottom: 1px solid #E8E8E8	;
+    height: 80px;
+    
+    
+}
+input:focus {
+    outline: none;
+    border-bottom: 1px solid rgb(61, 190, 222)	;
+
+}
+select:focus{
+
+    outline: none;
+    border-bottom: 1px solid rgb(61, 190, 222)	;
 }
 form{
+    margin-right: 150px auto;
+    height: 550px;
+   width: 500px;
+    margin-top: 0 auto;
+    margin-left: 0px;
+
+    
+   
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -21,24 +52,108 @@ form{
     flex-direction:column;
     
 }
-form button{
-    background-color: green;
 
+.button {
+    
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
     color: white;
+    background-color: #3ce2ad;
+    border: none;
+    border-radius: 25px;
     height: 50px;
     width: 100px;
-    border-radius: 25px;
-}
- .sec7{
-     
-     display: flex;
-     flex-direction: row;
-     
- }
- .sec7 div{
-    padding: 10%;
+    margin-top: 30px;
+    
+  }
+  
+  .button:hover {background-color: white;
+border: 1px solid rgb(84, 190, 222);
+color: rgb(84, 190, 222);}
+  
+  
+
+
+
+ 
+ .section11{
+     align-items: center;
+    
     display: flex;
     flex-direction: row;
+    
 
  }
+ .information-div{
+     
+     display:inline-block;
+     margin-left: 40%;
+     margin-top: 30%;
+     color: white;
+     
+     
+ }
+ .text-inside-information-div{
+     
+    display:flex;
+    flex-direction: row;
+    color: white;
+
+    
+    
+}
+.text-inside-information-div h1{
+    font-size: 30px;
+    padding: 10px;
+    border-right: 1px solid white;
+    margin-right:10px ;
+}
+.text-inside-information-div p{
+   
+    
+    margin-left:8px ;
+}
+
+ .form-class{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
  
+ }
+
+ 
+  ::selection {
+    color: white;
+    background:rgb(84, 190, 222)
+  }
+@media screen and (max-width:950px){
+    
+    
+    form{
+        width: 100%;
+        margin-left: 0;
+    }
+    .section11{
+    
+        display: flex;
+        flex-direction: column;
+        
+    
+     }
+}
+@media screen and (max-width :470px){
+    .section11{
+    
+        display: flex;
+        flex-direction: column;
+        
+    
+     }
+     .sec3-card{
+        margin-bottom: 2%;
+        margin-left: 0%;
+
+    }
+}
