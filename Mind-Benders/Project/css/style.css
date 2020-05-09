@@ -12,12 +12,13 @@ html{
 }
 body{
   overflow-x: hidden;
-  border: 1px solid black;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
     background-image:url(../images/lady.jpg);
     background-repeat: no-repeat;
+    background-size: 100% 700px;
      width:100% !important; 
     height: auto;
     font-family: 'Montserrat', sans-serif;
@@ -32,7 +33,7 @@ body{
   font-size: 15px !important;
 }
 .home{
-  border: 1px solid black;
+  
     width: 100% !important;
     flex-wrap: wrap;
     flex-direction: column;
@@ -91,7 +92,7 @@ body{
     
 }
 .home__container{
-  border: 1px solid black;
+  
     width: 80% !important;
     margin: 110px auto 30px !important;
 }
@@ -390,7 +391,7 @@ footer{
     max-width: 300px;
     }
     .sec4 {
-      width: 90%;
+      width: 95%;
     
     }
     .conta {
@@ -441,7 +442,7 @@ footer{
       margin-top: 40px;
     }
     .sec5 {
-      width: 90%;
+      width: 100%;
       background-color: #F4F4F4;
       padding: 80px;
     }
