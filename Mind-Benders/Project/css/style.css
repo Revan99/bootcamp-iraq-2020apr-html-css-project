@@ -11,13 +11,14 @@ html{
   scroll-behavior: smooth;
 }
 body{
+  overflow-x: hidden;
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
-    /* background-image:url(../images/lady.jpg);
+    background-image:url(../images/lady.jpg);
     background-repeat: no-repeat;
-    background-size: cover; */
-     width:98% !important; 
+     width:100% !important; 
     height: auto;
     font-family: 'Montserrat', sans-serif;
 }
@@ -31,8 +32,8 @@ body{
   font-size: 15px !important;
 }
 .home{
-    display: flex;
-    justify-content: center;
+  border: 1px solid black;
+    width: 100% !important;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
@@ -86,12 +87,13 @@ body{
 }
 .about{
     height: auto;
-    width: 98% !important;
+    width: 100% !important;
     
 }
 .home__container{
+  border: 1px solid black;
     width: 80% !important;
-    margin: 110px auto 30px;
+    margin: 110px auto 30px !important;
 }
 .border-none{
   border: none;
@@ -388,7 +390,7 @@ footer{
     max-width: 300px;
     }
     .sec4 {
-      width: 100%;
+      width: 90%;
     
     }
     .conta {
@@ -439,6 +441,7 @@ footer{
       margin-top: 40px;
     }
     .sec5 {
+      width: 90%;
       background-color: #F4F4F4;
       padding: 80px;
     }
@@ -639,7 +642,6 @@ footer{
       
       form{
           width: 100%;
-          margin-left: 0;
       }
       .section11{
       
@@ -841,3 +843,10 @@ form{
    margin-bottom: 15px;
 } 
 
+@media (max-width:300px){
+   body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+}
